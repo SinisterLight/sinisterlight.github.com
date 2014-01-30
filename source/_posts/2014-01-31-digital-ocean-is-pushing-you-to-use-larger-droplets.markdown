@@ -16,7 +16,17 @@ Pros
 Digital OCean prices will make you feel like
 Digital ocean targeted towards 
 
+Digital ocean is hugely popular cloud services provider. Recently
+crossing 1 million VMs.
+
 Digital ocean has limitations as a cloud service provider in many ways,
-but one thing they can boast of *less then a cent per hour hosting*
+but one thing they can boast of *less then a cent per hour hosting*. 
+
 Digital ocean is pushing you to use droplets with large memory.
 
+Witth SSD being MVP swap space is an awesome option.
+
+Swapfile
+Swap-partition
+
+Not much of a difference.
