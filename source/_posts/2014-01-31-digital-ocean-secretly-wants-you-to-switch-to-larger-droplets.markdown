@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Digital Ocean wants you to use larger droplets ?"
+title: "Digital Ocean secretly wants you to switch to larger droplets ?"
 date: 2014-01-31 00:17
 comments: true
 categories: swap linux ram digitalocean cloud product
@@ -16,7 +16,7 @@ but one thing they can boast of is *__less than a cent per hour hosting__*.
 Their lowest droplet plan is of $5 per month, with respectable 512MB RAM.
 SSD is the MVP for digital ocean, you see that written in big bold letters 
 on every advertisement out there. But interesting thing is that they give
- **O swap space** by default.
+ **zero swap space** by default.
 
 Swap space is a dedicated memory for OS on disk, and their disk being SSDs should
 be a lot faster than HDDs considering 0 seek time and multiple reads.
@@ -33,11 +33,12 @@ very well most of the user won't do it at all and will just go for larger drople
 even if there RAM needs are minimal. This a silent way for them for discouraging 
 $5-10 low memory VMs.
 
-Users are coming to there platform because they are most cost efficient.
+Users are coming to there platform because they are most cost
+efficient option out there
 They start working on their lower performance VMs. This is a quiet intelligent and 
 disguised way for pushing them to use larger VMs. Cheaper VMs serve the
-purpose of bringing users to there service and this is an intelligent
-way to make them feel that they need bigger droplets.
+purpose of bringing users to there service and slowly out of memory issues appears.
+Zero swap space is an intelligent way to make them feel that they need bigger droplets.
 
 It would be interesting to see some metrics on how many users upgrade
 there VMs from these smaller sizes compared to other service providers.
