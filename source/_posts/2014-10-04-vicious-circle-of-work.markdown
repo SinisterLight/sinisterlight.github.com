@@ -6,48 +6,6 @@ comments: true
 categories: 
 ---
 
-
-Sometimes I look back at 2007 with lot of regret. Ocasionally I regret
-those moments of labour, when I made the biggest mistake of my life. The
-mistake, whose consiquences I am facing till date, and probably will
-face till end of my life. That mistake was, that I worked HARD for JEE.
-That moment of weakness has shaped my future, still causing loads of
-sleepless nights, wokring my ass off. Those nights just kicked-off
-chain event in my life.
-
-I came to IIT, and some of friends who didn't worked enough went to some
-sub-IIT engineering college. Being in IIT, I was surrounded by people
-from alll over the country, each of the used to be finishing at top of
-food chain. Each of them with a habit of topping there classes. To just
-to pass in such a enviornment, you need to work hard. 'Slow and steady'
-fails here. You need run, and run hard to get anywhere there. You need
-to work hard a lot to survive. While my friends were having it easy at
-there colleges. Enjoying there lives with far healthier sex ratio tha
-IITs.
-IIT have the poorest sex ratio of all institutes, (except the boys
-schools) I worked hard.
-
-I was told just work hard for couple of year, and then just enjoy for
-rest of your life. No one told me that this the biggest lie, I am being
-told. No one tolde me, that this is a trap and I will never rest easy in
-my life, ever again.
-
-I was working hard in present wherever I was, in the hope that my future
-will be easy. While I found that my future was never easier. All I did
-was to made my present hard.
-
-I worked hard to get into IITs ( India's allegedlly premier institutes
-for enngineering education ), for
-
-Once you start working hard then you just have to. Once you raise bar for
-yourself, you can't look back. You'll just have to push it. That is how
-we all are designed, that is what we are taught to us over and over,
-that it is etched in our minds. One cannot
-
-P.S: For the sake of being dramatic, I am saying that I worked hard for
-JEE. But in truth, I didn't. I just got lucky. 8-)
-
-
 Let me tell you a story of a boy called Johnny. Johnny was a happy boy.
 He was of fun-loving and happy-go-lucky kind. Never worrying about a
 thing in his life. He faced his life head-on. Just laid back and enjoyed
@@ -67,35 +25,9 @@ things, how important these exams were, and how his life depended on
 them. How his life will turn a page, if he does well.
 
 But what everyone failed to tell him was how dark and gloomy his life
-will become after. And he willl never be in tthe 'Neverland' again. Like
-Peter Pan, he would just outgrow it, inspite of how much he loved it,
+will become after. And he will never be in the 'Neverland' again. Like
+Peter Pan, he will just outgrow it, inspite of how much he loved it,
 how much he cling on to it.
-
-It was like Morphious offering you blue and red pill in 'The Matrix' to
-Neo. Blue pill will give you enlightenment, and give you knowledge. But
-it will take away you current - easy and perfect life, which will just
-never be back. It may be a noble cause to pursue and follow, but it is
-not an easy one. What is so wrong with choosing the red pill? which
-will let you be happy in your bubble. But will let you be happy in your
-life. Which an elitist society, like ours, won't understand. Was it so
-wrong to choose mediocrity in his life? As some great philosopher said
-"Ignorance is bliss".
-
-Hard work was like blue pill, once you choose it life will be a constant
-struggle, an uphill battle for persevering higher and higher. You will
-never be satisfied with you achievements, always wanting more, never
-knowing when to stop. Every little achievement will make you hungrier
-and hoarding more and more, with ever incresing "expectations" of
-everyone including yourself. It will be a vicious circle sucking you in.
-With even a small iota of it creating a need of thousand fold in you
-life.
-
-I am not pushing anyone to choose the red pill, neither endorsing it. An
-elitist guy like Johnny may again choose blue pill for imself, inspite
-of knowing all this. But I am just showing you the "Dark Side". As every
-one should know every aspect of his decisions when they take them.
-Everyone has a right to choose happiness for themselves -even it comes
-at a price of mediocrity - insn't it the goal of pursuing anything ??
 
 He shot in his foot with deciding to work on his JEE exams. He never
 knew that this little thing will cause an endless stream of sleepless
@@ -166,3 +98,40 @@ golden. He will sip margerhitas on clouds. But it never was, no one told
 him what it will truly be. A constant struggle to do better and improve.
 which will lead to an ever threatening stakes of failure. Now he wonder
 what could have been.
+
+No one told him that it was the biggest lie, he was being told. No one
+told him, that this was a trap and never again he will rest easy. He was
+working hard in the present, wherever he was, in the hope that his future
+will be easy. While his future was never easier, all he did was to make
+present harder.
+
+Once you start working hard then you just have to. Once you raise bar for
+yourself, you can't look back. You'll just have to push it. That is how
+we all are designed, that is what we are taught to us over and over,
+that it is etched in our minds.
+
+It was like Morphious offering you blue and red pill in 'The Matrix' to
+Neo. Blue pill will give you enlightenment, and give you knowledge. But
+it will take away you current - easy and perfect life, which will just
+never be back. It may be a noble cause to pursue and follow, but it is
+not an easy one. What is so wrong with choosing the red pill? which
+will let you be happy in your bubble. But will let you be happy in your
+life. Which an elitist society, like ours, won't understand. Was it so
+wrong to choose mediocrity in his life? As some great philosopher said
+"Ignorance is bliss".
+
+Hard work was like blue pill, once you choose it life will be a constant
+struggle, an uphill battle for persevering higher and higher. You will
+never be satisfied with you achievements, always wanting more, never
+knowing when to stop. Every little achievement will make you hungrier
+and hoarding more and more, with ever incresing "expectations" of
+everyone including yourself. It will be a vicious circle sucking you in.
+With even a small iota of it creating a need of thousand fold in you
+life.
+
+I am not pushing anyone to choose the red pill, neither endorsing it. An
+elitist guy like Johnny may again choose blue pill for imself, inspite
+of knowing all this. But I am just showing you the "Dark Side". As every
+one should know every aspect of his decisions when they take them.
+Everyone has a right to choose happiness for themselves -even it comes
+at a price of mediocrity - insn't it the goal of pursuing anything ??
