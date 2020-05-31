@@ -1,0 +1,72 @@
+baseURL = "https://example.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Website of Jane Doe"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+publishDir= "public"
+
+# Enable Disqus
+disqusShortname = "SinisterLight"
+
+# Google Analytics
+googleAnalytics = "UA-37091031-1"
+
+[params]
+title = "Shobhit Srivastava"
+author = "Shobhit Srivastava"
+description = "Hello folks, I'm Shobhit. Currently living in Bangalore, working at Gojek"
+profilePicture = "images/profile.png"
+keywords = "Sinister Light Shobhit Srivastava"
+favicon = "favicons/"
+customCss = []
+mainSections = ["post"]
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/sinisterlight/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/sinisterlight"
+
+[[params.socialIcons]]
+icon = "fa-twitter"
+title = "twitter"
+url = "https://twitter.com/Sinister_Light"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:me@sinisterlight.com"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
