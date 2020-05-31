@@ -12,7 +12,7 @@
           <i class="fa fa-sun-o"></i><span class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
           <i class="fa fa-clock-o"></i><span class="reading-time">{{ .ReadingTime }}-minute read</span>
           <div class="share-links" style="float:right;color:var(--heading-color)">
-            <a href="http://twitter.com/share?url={{ $url }}&text={{ $title }}&via={{with .Site.Params.TwitterHandle }}{{ . }}{{ end }}" aria-label="share on Twitter">
+            <a href="http://twitter.com/share?url={{ $url }}&text={{ $title }}&via={{with .Site.Params.TwitterHandle }}{{ . }}{{ end }}" aria-label="share on Twitter" style="float:right;color:var(--heading-color)">
               <i class="fa fa-twitter"></i>
             </a>
           </div>
