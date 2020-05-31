@@ -22,6 +22,7 @@ keywords = "Sinister Light Shobhit Srivastava"
 favicon = "favicons/"
 customCss = []
 mainSections = ["post"]
+twitterHandle = "Sinister_Light"
 
 ## Math settings
 [params.math]
