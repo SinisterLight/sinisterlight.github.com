@@ -13,10 +13,16 @@ jobs:
       with:
         submodules: true
 
+    - name: Read .env
+      id: hugo-version
+      run: |
+        . ./.env
+        echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
+
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.71.1'
+        hugo-version: '${{ steps.hugo-version.outputs.HUGO_VERSION }}'
 
     - name: Build
       run: hugo --minify
