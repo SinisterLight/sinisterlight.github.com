@@ -1,7 +1,10 @@
 ---
 title: "the vicious circle"
 date: 2014-12-08T11:16:00+05:30
-type: post
+Description: ""
+Tags: []
+Categories: []
+DisableComments: false
 url: blog/2014/12/08/the-vicious-circle/
 ---
 

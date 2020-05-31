@@ -1,7 +1,10 @@
 ---
 title: "Digital Ocean secretly wants you to switch to larger droplets ?"
 date: 2014-01-31T00:17:00+05:30
-type: post
+Description: ""
+Tags: []
+Categories: ["swap", "linux", "RAM", "digitalocean", "cloud", "product"]
+DisableComments: false
 url: blog/2014/01/31/digital-ocean-secretly-wants-you-to-switch-to-larger-droplets/
 ---
 
