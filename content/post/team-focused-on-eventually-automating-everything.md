@@ -9,6 +9,8 @@ DisableComments: false
 
 Lessons in untying dependencies and letting machines do the work
 
+This is Part 1 of a feature story on Team Lambda and what it aims to do. For Part 2, click [here]({{< ref "/post/team-focused-on-eventually-automating-everything-2" >}})
+
 2015 to 2018 now is about 6600x growth in total order volume. Impressive as these numbers may be, it doesn’t tell you the decision-making in the backend for 500+ microservices. If you’ve been following some of the articles on our blog, you’d notice a pattern of sorts; failures are routine. A lot of us shy to talk about our failures, but being vocal about it makes us better, stronger, more eager to build and solve.
 
 This is the story of Team Lambda; a team built out of part desperation, part necessity.
