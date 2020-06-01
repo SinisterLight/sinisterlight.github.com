@@ -1,7 +1,7 @@
 baseURL = "https://sinisterlight.com"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
+title = "Sinister Light"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
