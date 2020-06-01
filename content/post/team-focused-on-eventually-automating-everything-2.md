@@ -36,6 +36,8 @@ This accruing debt is frustrating for devs and makes shipping things to producti
 >Underlying message to scale: **ASK FORGIVENESS, OVER PERMISSION**
 
 6 months after our new avatar, here’s what adoption of Lambda actors looks like:
+
+![lambda growth](/images/lambda-growth.png)
 An explosion of Lambda Actors
 
 >Our aim is transform the way everyone writes code at GO-JEK.
