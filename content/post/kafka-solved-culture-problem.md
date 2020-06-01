@@ -10,7 +10,7 @@ Software can solve cultural problems. While that might seem outlandish, if you�
 
 However, it can also complicate culture; like introducing a biometric system to track employee attendance, and have software track sick leaves.
 
-    In essence, an organisation’s tech stack will reflect the health of the company.
+>In essence, an organisation’s tech stack will reflect the health of the company.
 
 If you’re focused on writing beautiful code, it’s likely that employees are disciplined, organised, and believe in the company’s values. It’s really not that far-fetched a correlation.
 
@@ -23,7 +23,7 @@ We had about 10+ products at the time and about 60+ developers (Today, we have 1
 
 At the core of GOJEK is ‘Allocations’; — a classic matchmaking engine between the driver and the customer. All surrounding teams depended on this one team to add features, beta test their offerings, and much more. If GO-FOOD wanted to allocate a 4-star driver to some orders, they had to raise a ‘ticket’ with the Allocations team. The Allocations team then processed this for GO-FOOD.
 
-    Now, think of 50 developers asking Allocations to push their features first.
+>Now, think of 50 developers asking Allocations to push their features first.
 
 Soon, the org was heavily dependent on relationships. If Ekta from GO-BOX had a strong relationship with Jane in Allocations, Ekta would get preference on her features. This became problematic for us and as the org scaled, it added more cultural biases. Jane also became the defacto gatekeeper.Everyone had to toe her line if they wanted to build and deploy their own features. To add to this, Allocations was pushing back and severely lagging behind, because 50-odd developers were adding and testing 10 features a day.
 
@@ -34,7 +34,7 @@ It was apparent we had to fix this problem — once and for all. The ‘Relation
 
 We needed a solution that gave everyone the freedom to build and experiment. We wanted folks to think they’re building individual products from scratch without any reliance. Easier said that done, right?
 
-    This was the genesis of GOJEK’s philosophy of building a #SuperApp — a chance to build startups within a startup.
+>This was the genesis of GOJEK’s philosophy of building a #SuperApp — a chance to build startups within a startup.
 
 We wanted to unleash our best minds to build, and not worry about RaaS.After some research and consensus across the board, we were all sold on Kafka. Software was going to solve our RaaS problem. Ambitious? Maybe. Pragmatic? Damn right.
 gojek.jobs
@@ -42,11 +42,11 @@ Forget the morose writer
 
 Every team was mandated to broadcast events on Kafka. If a driver booking was made, it was sent to Kafka. If a driver completed the ride, it was sent to Kafka. Kafka became the bus that carried the millions of events happening inside GOJEK.
 
-    Anything and everything individual teams did was visible to anyone and everyone inside GO-JEK.
+>Anything and everything individual teams did was visible to anyone and everyone inside GO-JEK.
 
 If a team wanted to test features or roll out updates, they merely had to rely on Kafka. No more RaaS. No more long waiting periods. This unleashed the productivity of every developer. The day we rolled out Kafka, we killed the gatekeeper. Information was free and accessible to all. We were solving software problems, but deep down, culture was the bigger fix.
 
-    Today, we emit 350,000,000 messages on Kafka and it’s every engineers’ playground.
+>Today, we emit 350,000,000 messages on Kafka and it’s every engineers’ playground.
 
 Our two-pizza team rule became far more efficient, and now we were solving bigger problems. This is also an example of how we look at Lean Engineering, but that’s a story for another day.
 Das Urteil — But positive Metamorphosis
