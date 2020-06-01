@@ -1,6 +1,6 @@
 ---
 title: "What does’t work initially only makes you stronger — Team Lambda"
-date: 2020-06-01T13:12:56+05:30
+date: 2018-12-03T13:12:56+05:30
 Description: "This is Part 2 of a feature story on Team Lambda and what it aims to do. For Part 1, click here"
 Tags: []
 Categories: []
