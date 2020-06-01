@@ -1,7 +1,6 @@
 ---
 title: "Shobhit Srivastava"
 date: 2020-06-01T23:50:09+05:30
-draft: true
 ---
 
 Hello Folks,
