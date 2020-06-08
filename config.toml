@@ -71,3 +71,9 @@ url = "mailto:me@sinisterlight.com"
   weight = 300
   identifier = "about"
   url = "/about/"
+
+  [[menu.main]]
+  name = "RSS"
+  weight = 400
+  identifier = "rss"
+  url = "/index.xml"
