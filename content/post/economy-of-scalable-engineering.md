@@ -11,7 +11,7 @@ DisableComments: false
 
 *I wrote the following note sometime in the middle of 2018, after working on a barrage of problems at Gojek. Each of those problems were critical in nature but each of them also revealed deeper patterns of problems. Hence, I was building the “Kernel” team (Codename for Gojek’s Engineering platform), and thus wrote this vision doc, to keep guiding me and the team on what we were working towards. Today 2 years later, almost all of the items on the list are yet to be achieved. But the direction still holds true, it keeps guiding us and serves its purpose.*
 
-A year ago, I moved from being responsible from Marketplace to Transport. Being new to understanding what that means, my conclusion was “I should just focus on the biggest problem”. That kept me busy for a while.Those “Biggest problems” changed all the time, Uptime, Education/Training, Org structure, Team collaboration, Morale, Hiring, Momentum. Hence, focus switched all the time, from one fire to another.
+A year ago, I moved from being responsible for Marketplace to Transport. Being new to understanding what that means, my conclusion was “I should just focus on the biggest problem”. That kept me busy for a while.Those “Biggest problems” changed all the time, Uptime, Education/Training, Org structure, Team collaboration, Morale, Hiring, Momentum. Hence, focus switched all the time, from one fire to another.
 
 We were changing so quickly that we were practically a new company every 6 months, or on the flip side, this meant our processes and systems were always at least 6 months behind what was needed to support the growth and headcount. Training, coordination and context were always failing to scale. Entropy keeps on increasing, and managing it is the challenge.
 
