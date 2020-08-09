@@ -7,7 +7,7 @@ Categories: []
 DisableComments: false
 ---
 
-*Last 5 years, I have been busy building Gojek, seeing this rocket ship grow from 10 million to 10 billion. Gojek is an South-east Asian superapp, with an army of products, the biggest ones being Transport, Food and Pay. In my time there, I kept moving teams and products building several of those Ground up by leading their engineering and product. I was also part of the CTO office, looking after the overall Engineering function and India office.*
+*Last 5 years, I have been busy building Gojek, seeing this rocket ship grow from 10 million to 10 billion. Gojek is an South-east Asian superapp, with an army of products, the biggest ones being Transport, Food and Pay. In my time there, I kept moving teams and products building several of those ground up by leading their engineering and product. I was also part of the CTO office, looking after the overall Engineering function and India office.*
 
 *I wrote the following note sometime in the middle of 2018, after working on a barrage of problems at Gojek. Each of those problems were critical in nature but each of them also revealed deeper patterns of problems. Hence, I was building the “Kernel” team (Codename for Gojek’s Engineering platform), and thus wrote this vision doc, to keep guiding me and the team on what we were working towards. Today 2 years later, almost all of the items on the list are yet to be achieved. But the direction still holds true, it keeps guiding us and serves its purpose.*
 
