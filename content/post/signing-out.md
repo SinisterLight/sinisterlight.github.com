@@ -1,5 +1,5 @@
 ---
-title: "Signing Out"
+title: "Gojek: Signing Out"
 date: 2020-08-31T19:52:28+05:30
 Description: ""
 Tags: []
@@ -17,12 +17,12 @@ Gojek was an extremely demanding place from me. It kept pushing me to do my best
 
 It has been an emotional rollercoaster. With so many moments, it is impossible to list them all.
 * Feeling vanity as an Engineer, when we had “Integer overflow” problems.
-* Feeling like a hero, when I patched a bug with Niranjan after a field trip from CBD which was flooding our driver’s phone in rush hour. 
+* Feeling like a hero, when I patched a bug with Niranjan after a field trip from CBD which was flooding our driver’s phone in rush hour.
 * Feeling the rush of “Blue line” hoping that it will be ahead of Yellow one, when looking at the “[New] Allocation Dashboard”
 * Feeling ambitious pressure of timelines, when the CEO set up the Allocation team on “The perfect allocation problem” with 2 weeks as a goal!
 * Feeling the frustration of realising that getting smart people into a room is not enough to get results going. A lot of us felt the same with acquisition of CodeIgnition, Leftshift and C42, it took us years of working together to iron out our work styles.
 * Feeling rebellious by pushing Singapore launch against the existing Trifecta wave.
-* Feeling the rush of release, when we pressured Kevin and Dito on releasing Surge pricing as a part of a “prod-support” problem    
+* Feeling the rush of release, when we pressured Kevin and Dito on releasing Surge pricing as a part of a “prod-support” problem
 * Feeling miraculously calm, at the accidental release of GoCar a couple of days before when it was actually meant to be
 * Feeling like a friend, with hosting countless after office parties at my place.
 * Feeling like a firefighter, after peeling layer by layer of “infinite onion” each evening at House 630 in Indiranager, and then discussing the storm at coffeshop next door.
