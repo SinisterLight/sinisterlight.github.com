@@ -12,3 +12,6 @@ I currently work at [Gojek](https://www.gojek.io/), managing Engineering platfor
 Previously worked at
 [hoppr](https://www.crunchbase.com/organization/hoppr). Started and
 sold [CodeIgnition](https://www.crunchbase.com/organization/codelgnition) with [Ajey](https://twitter.com/ajeygore), [Mehak](https://twitter.com/MehakKahlon), [Sumit](https://twitter.com/timusg) & [Shraddha](https://twitter.com/shraddhagore).
+
+Small video about me made at Gojek.
+{{< youtube z1bKs6JDBJA >}}
