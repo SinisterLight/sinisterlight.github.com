@@ -8,10 +8,12 @@ Hello Folks,
 I'm Shobhit, known as [@Sinister_Light](https://twitter.com/Sinister_Light) on Twitter. I write about
 software, management and life. Love to hear from you at me[at]sinisterlight.com.
 
-I currently work at [Gojek](https://www.gojek.io/), managing Engineering platform.
+Currently, I am co-founder and CEO for [shovel.company](https://shovel.company).
+
 Previously worked at
 [hoppr](https://www.crunchbase.com/organization/hoppr). Started and
-sold [CodeIgnition](https://www.crunchbase.com/organization/codelgnition) with [Ajey](https://twitter.com/ajeygore), [Mehak](https://twitter.com/MehakKahlon), [Sumit](https://twitter.com/timusg) & [Shraddha](https://twitter.com/shraddhagore).
+sold [CodeIgnition](https://www.crunchbase.com/organization/codelgnition) with [Ajey](https://twitter.com/ajeygore), [Mehak](https://twitter.com/MehakKahlon), [Sumit](https://twitter.com/timusg) & [Shraddha](https://twitter.com/shraddhagore) to [Gojek](https://www.gojek.io/).
+In my last role, I was SVP Product Engineering - Transport at [Gojek](https://www.gojek.io/), also manage Engineering platform.
 
 Small video about me made at Gojek.
 {{< youtube z1bKs6JDBJA >}}
