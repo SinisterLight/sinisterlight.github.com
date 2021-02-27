@@ -16,7 +16,7 @@ googleAnalytics = "UA-37091031-1"
 [params]
 title = "Shobhit Srivastava"
 author = "Shobhit Srivastava"
-description = "Hello folks, I'm Shobhit. Currently living in Bangalore, working at shovel.company. ex-Gojek, CodeIgniton and Hoppr"
+description = "Hello folks, I'm Shobhit. Currently living in Bangalore, working at shovel.company. ex-Gojek, CodeIgniton"
 profilePicture = "images/profile.png"
 keywords = "Sinister Light Shobhit Srivastava"
 favicon = "favicons/"
