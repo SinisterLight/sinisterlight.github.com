@@ -1,5 +1,5 @@
 ---
-title: "Cto Maturity Model"
+title: "CTO Maturity Model"
 date: 2020-10-16T12:26:20+05:30
 Description: "Understanding the kind of CTO you need"
 Tags: []
