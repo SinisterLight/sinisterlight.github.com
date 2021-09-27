@@ -3,7 +3,7 @@ title: "Talks"
 date: 2020-06-01T23:50:09+05:30
 ---
 
-* [Sep 26, 2021] "Becoming Succesful" @ SoSE Launch Event - [deck](https://docs.google.com/presentation/d/1m7xBxkaePcfzOQin9FmNhWXNQQnkZT0f1lI68Mt_wZk/edit?usp=sharing)
+* [Sep 26, 2021] "Becoming Succesful in 21st century" @ SoSE Launch Event - [deck](https://docs.google.com/presentation/d/1m7xBxkaePcfzOQin9FmNhWXNQQnkZT0f1lI68Mt_wZk/edit?usp=sharing)
 * [Nov 29, 2020] "Becoming Succesful" @ IIT Jodphur Fresher Orientations - [deck](https://docs.google.com/presentation/d/1ngjLpxHxS_eMMBPE9jHir2e_rQpvAZFCbxHdfH37hhc/edit?usp=sharing)
 * [Oct 12, 2020] "OKRs in action" @ KukuFM -
 [deck](https://docs.google.com/presentation/d/1qRYbEUyIyz6TFbaFofDnvY1SMT9N45bhmWXOKNtNciU/edit?usp=sharing)
