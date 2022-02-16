@@ -12,7 +12,7 @@ The first reason for this is classic [Yagni](https://martinfowler.com/bliki/Yag
 
 The second issue with starting with microservices is that they only work well if you come up with good, stable boundaries between the services - which is essentially the task of drawing up the right set of [BoundedContexts](https://martinfowler.com/bliki/BoundedContext.html). Any refactoring of functionality between services is much harder than it is in a monolith. But even experienced architects working in familiar domains have great difficulty getting boundaries right at the beginning. By building a monolith first, you can figure out what the right boundaries are, before a microservices design brushes a layer of treacle over them.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2fafcee5-104f-484e-be4d-3f303c190024/Screenshot_2021-06-02_at_11.31.57_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2fafcee5-104f-484e-be4d-3f303c190024/Screenshot_2021-06-02_at_11.31.57_AM.png)
+![monolith](/images/monolith.png)
 
 The complexity that drives us to microservices can come from many sources
 
