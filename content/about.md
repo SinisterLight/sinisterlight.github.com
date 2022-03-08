@@ -17,3 +17,5 @@ In my last role, I was SVP Product Engineering - Transport at [Gojek](https://ww
 
 Small video about me made at Gojek.
 {{< youtube z1bKs6JDBJA >}}
+
+Apart from building businesses I am deeply passionate about future and technology. Thus spent extensive amount of time working pushing technological progress by sharing knowledge. Be it through working as a programmer, where I worked with top foundation in world ([Observability white-paper](https://github.com/cncf/tag-observability/blob/main/whitepaper.md) for CNCF) and organising India's top conferences in tech. Or helping Delhi government design curriculums for future schools.
