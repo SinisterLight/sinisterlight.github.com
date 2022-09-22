@@ -28,8 +28,6 @@ With benefits being
 * Ease of deployment
 * Organisational alignment
 
-![microservices](/images/microservices.png)
-
 The term "microservice" was discussed at a workshop of software architects near Venice in May, 2011. It was used to describe what the participants saw as a common architectural style that many of them had been recently exploring. In May 2012, the same group decided on "microservices" as the most appropriate name. But the term could be tracked back as early as 2005, Peter Rodgers introduced the term "Micro-Web-Services" during a presentation at the Web Services Edge conference right in middle of popularity peak of SOA.
 
 In spite of such long history, there is still some confusion about how they are different from previous generation of design called "Service -oriented Architecture" (SOA). Some people believe Microservices is SOA done right. Alexander Pasik of Gartner coined the term "SOA" in 1994. In early 2000s, Microsoft came up with a big push on webservices, and SOA was natural architecture style that worked well with webservices. As webservices became popular, SOA became popular. Although they were two independent ideas. SOA is architectural style while webservices was implementation.
