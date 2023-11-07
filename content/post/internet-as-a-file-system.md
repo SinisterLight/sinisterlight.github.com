@@ -73,7 +73,7 @@ This is where a file system which supports interoperability between the apps bec
 * https://en.wikipedia.org/wiki/WebDAV
 * https://users.soe.ucsc.edu/~ejw/papers/webdav_intro_ic.pdf
 * http://www.webdav.org/deltav/WWW10/deltav-www10.pdf
-* http://www.dsc.ufcg.edu.br/~garcia/cursos/dglobal_software/Textos_Sem/Future of Distributed Software Development.htm
+* [http://www.dsc.ufcg.edu.br/~garcia/cursos/dglobal_software/Textos_Sem/Future of Distributed Software Development.htm](http://www.dsc.ufcg.edu.br/~garcia/cursos/dglobal_software/Textos_Sem/Future of Distributed Software Development.htm)
 * https://docs.ipfs.tech/concepts/what-is-ipfs/
 * https://github.com/ipfs/papers/raw/master/ipfs-cap2pfs/ipfs-p2p-file-system.pdf
 * https://en.wikipedia.org/wiki/Git
