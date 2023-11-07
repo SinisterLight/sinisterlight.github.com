@@ -7,6 +7,8 @@ Categories: []
 DisableComments: false
 ---
 
+reposting from - (https://blog.shovel.company/p/internet-as-a-file-system)[https://blog.shovel.company/p/internet-as-a-file-system]
+
 ## Web1.0 - Genesis
 August 6, 1991, Tim Berners-Lee announced the “WorldWideWeb” to a newsgroup called alt.hypertext. He wrote -
 
