@@ -1,6 +1,6 @@
 ---
 title: "Internet as a File System"
-date: 2022-05-03T17:58:54+05:30
+date: 2023-11-07T17:58:54+05:30
 Description: "How file system view of internet has evolved over time"
 Tags: ["internet", "file system", "history", "evolution"]
 Categories: []
