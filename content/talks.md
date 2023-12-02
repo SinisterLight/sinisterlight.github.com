@@ -3,6 +3,7 @@ title: "Talks"
 date: 2020-06-01T23:50:09+05:30
 ---
 
+* [Dec, 2023] "Internet as File system" | FIL Bangalore - [deck](https://docs.google.com/presentation/d/1lDxhx-6KhiRjDNyaEWFvu86x-X-ZVk0trAJa-Xmw_gk/edit?usp=sharing)
 * [Mar, 2022] CTO & Founders Mixer : Panel Discussion | In Collaboration with 8VC @ Stellaris Venture Partners - [Video](https://youtu.be/pOqoVSikpd8)
 * [Sep 26, 2021] "Becoming Succesful in 21st century" @ SoSE Launch Event - [deck](https://docs.google.com/presentation/d/1m7xBxkaePcfzOQin9FmNhWXNQQnkZT0f1lI68Mt_wZk/edit?usp=sharing)
 * [Nov 29, 2020] "Becoming Succesful" @ IIT Jodphur Fresher Orientations - [deck](https://docs.google.com/presentation/d/1ngjLpxHxS_eMMBPE9jHir2e_rQpvAZFCbxHdfH37hhc/edit?usp=sharing)
