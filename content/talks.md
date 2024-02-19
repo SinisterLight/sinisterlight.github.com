@@ -3,6 +3,8 @@ title: "Talks"
 date: 2020-06-01T23:50:09+05:30
 ---
 
+* [Jan 06, 2024] "Internet as a File-System" | FOC Meetup, Bangalore
+* [Jan 01, 2024] "Future of decentralised tech" | Living on the Blockchain, EP 74  - [podcast](https://open.spotify.com/episode/58O72Mm9NXy9xTdRzhJHlX)
 * [Dec, 2023] "Internet as File system" | FIL Bangalore - [deck](https://docs.google.com/presentation/d/1lDxhx-6KhiRjDNyaEWFvu86x-X-ZVk0trAJa-Xmw_gk/edit?usp=sharing)
 * [Mar, 2022] CTO & Founders Mixer : Panel Discussion | In Collaboration with 8VC @ Stellaris Venture Partners - [Video](https://youtu.be/pOqoVSikpd8)
 * [Sep 26, 2021] "Becoming Succesful in 21st century" @ SoSE Launch Event - [deck](https://docs.google.com/presentation/d/1m7xBxkaePcfzOQin9FmNhWXNQQnkZT0f1lI68Mt_wZk/edit?usp=sharing)
