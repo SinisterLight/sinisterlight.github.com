@@ -3,6 +3,7 @@ title: "Talks"
 date: 2020-06-01T23:50:09+05:30
 ---
 
+* [Apr 09, 2025] "Agents & Engineering" | South Park Commons, Bangalores - [deck](https://docs.google.com/presentation/d/1uDKOB-PBP9NHIEfQC2hnjjdMgvGmuylXg3c4wP7Dqx8/edit?usp=sharing)
 * [Jan 06, 2024] "Internet as a File-System" | FOC Meetup, Bangalore
 * [Jan 01, 2024] "Future of decentralised tech" | Living on the Blockchain, EP 74  - [podcast](https://open.spotify.com/episode/58O72Mm9NXy9xTdRzhJHlX)
 * [Dec, 2023] "Internet as File system" | FIL Bangalore - [deck](https://docs.google.com/presentation/d/1lDxhx-6KhiRjDNyaEWFvu86x-X-ZVk0trAJa-Xmw_gk/edit?usp=sharing)
