@@ -1,0 +1,65 @@
+{{ define "main" }}
+{{ $bio := "At <b>Shovel</b>, we are building ‘Stevens’ — a personal agent for the family that keeps up with the constant work of running a home: it’s local-first, with privacy and identity as structural principles (not verbal promises). We operate with ‘User Agency’ at the core, that comes from a decade of experience in distributed systems, identity, and the protocols. We build ‘tools’ — as they hand people more agency." }}
+<main class="view anim">
+
+  <section class="wrap hero">
+    <h1>Shobhit Srivastava</h1>
+    <p class="bio">{{ $bio | safeHTML }}</p>
+  </section>
+
+  <section class="wrap blk">
+    <h2>What I’m building</h2>
+    <p class="lede">{{ $bio | safeHTML }}</p>
+    <div class="build">
+      <h3><a href="https://shovel.company/#stevens" target="_blank" rel="noopener">Stevens</a></h3>
+      <p>A personal agent for the family. It watches the household quietly — bills, the kitchen, birthdays, the appointment you keep meaning to make — and acts on your behalf, across health, money, and the people you care about.</p>
+      <a class="more" href="https://shovel.company/#stevens" target="_blank" rel="noopener">Meet Stevens →</a>
+    </div>
+    <div class="build">
+      <h3><a href="https://creole.network/whitepaper/" target="_blank" rel="noopener">The Creole Network</a></h3>
+      <p>The substrate Stevens runs on — a user-controlled, local-first network that keeps a person’s data in their own hands. Everything else we’re building sits on top of it.</p>
+      <a class="more" href="https://shovel.company" target="_blank" rel="noopener">More at shovel.company →</a>
+    </div>
+  </section>
+
+  <section class="wrap blk">
+    <h2>Writing</h2>
+    <div class="list">
+      {{ range slice "internet-as-a-file-system" "evolution-of-microservices" "cto-maturity-model" "implementing-sre" }}
+        {{ with $.Site.GetPage (printf "/post/%s" .) }}
+        <a class="row" href="{{ .Permalink }}">
+          <span class="l"><span class="t">{{ .Title }}</span><span class="d">{{ index $.Site.Data.essays (path.Base .RelPermalink) }}</span></span>
+          <span class="yr">{{ .Date.Format "2006" }}</span>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+    <a class="viewall" href="{{ "/post/" | relURL }}">All writing →</a>
+  </section>
+
+  <section class="wrap blk">
+    <h2>Talks</h2>
+    <div class="list">
+      {{ range where .Site.Data.talks "featured" true }}
+        <a class="row"{{ with .url }} href="{{ . }}" target="_blank" rel="noopener"{{ end }}>
+          <span class="l"><span class="t">{{ .title }}</span><span class="d">{{ .venue }}</span></span>
+          <span class="yr">{{ .year }}</span>
+        </a>
+      {{ end }}
+    </div>
+    <a class="viewall" href="{{ "/talks/" | relURL }}">All talks →</a>
+  </section>
+
+  <section class="wrap blk">
+    <h2>A little background</h2>
+    <p class="bio" style="color:var(--muted);max-width:60ch">Before Shovel, I started a video startup that didn’t make it, built a DevOps company a few of us took into Gojek, and spent five years there helping the engineering grow as the company did. The longer story is on the about page.</p>
+    <a class="viewall" href="{{ "/about/" | relURL }}">More about me →</a>
+  </section>
+
+  <section class="wrap blk elsewhere">
+    <h2>Elsewhere</h2>
+    <p><a href="mailto:me@sinisterlight.com">me@sinisterlight.com</a><span class="sep">·</span><a href="https://twitter.com/Sinister_Light" target="_blank" rel="noopener">Twitter</a><span class="sep">·</span><a href="https://www.linkedin.com/in/sinisterlight/" target="_blank" rel="noopener">LinkedIn</a><span class="sep">·</span><a href="https://github.com/sinisterlight" target="_blank" rel="noopener">GitHub</a></p>
+  </section>
+
+</main>
+{{ end }}

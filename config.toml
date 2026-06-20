@@ -2,21 +2,18 @@ baseURL = "https://sinisterlight.com"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Sinister Light"
-theme = "anatole"
+# Theme replaced by the project-level layouts/ (custom cream/sienna theme).
 summarylength = 10
 enableEmoji = true
 publishDir= "public"
 
-# Enable Disqus
+# Enable Disqus (comments preserved)
 disqusShortname = "SinisterLight"
-
-# Google Analytics
-googleAnalytics = "UA-37091031-1"
 
 [params]
 title = "Shobhit Srivastava"
 author = "Sinister Light"
-description = "Hello folks, I'm Shobhit. Currently living in Bangalore, working at shovel.company. ex-Gojek, CodeIgniton"
+description = "Shobhit Srivastava — writing on software, systems, and how teams build them."
 profilePicture = "images/profile.png"
 keywords = "Sinister Light Shobhit Srivastava"
 favicon = "favicons/"

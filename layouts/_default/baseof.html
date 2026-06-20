@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Params.title }} — {{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}Shobhit Srivastava — writing on software, systems, and how teams build them.{{ end }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Params.title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta name="twitter:card" content="summary">
+{{ with .Site.Params.twitterHandle }}<meta name="twitter:creator" content="@{{ . }}">{{ end }}
+<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "index.xml" | absURL }}">
+<link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="in">
+    <a class="name" href="{{ "/" | relURL }}">Shobhit Srivastava</a>
+    <div class="burger" aria-label="Menu" role="button" tabindex="0"><span></span><span></span><span></span></div>
+    <div class="links">
+      <a href="{{ "/post/" | relURL }}"{{ if eq .Section "post" }} class="on"{{ end }}>Writing</a>
+      <a href="{{ "/talks/" | relURL }}"{{ if eq .Section "talks" }} class="on"{{ end }}>Talks</a>
+      <a href="{{ "/about/" | relURL }}"{{ if eq .Section "about" }} class="on"{{ end }}>About</a>
+      <a href="https://shovel.company" target="_blank" rel="noopener">Shovel</a>
+    </div>
+  </div>
+</nav>
+
+{{ block "main" . }}{{ end }}
+
+<footer>
+  <div class="in">
+    <span>© {{ now.Format "2006" }} Shobhit Srivastava</span>
+    <span>Bangalore</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var b=document.querySelector('.burger'),l=document.querySelector('.nav .links');
+  if(b&&l){var t=function(){l.classList.toggle('open')};b.addEventListener('click',t);
+    b.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t()}});}
+})();
+</script>
+</body>
+</html>
