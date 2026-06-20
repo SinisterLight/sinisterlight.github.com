@@ -17,6 +17,9 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.14;letter-spacin
 .nav{position:sticky;top:0;z-index:30;background:rgba(246,241,232,.86);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .nav .in{max-width:var(--w);margin:0 auto;padding:16px var(--gut);display:flex;align-items:center;justify-content:space-between}
 .nav .name{font-family:var(--sans);font-weight:600;font-size:15px;color:var(--ink);letter-spacing:-.01em}
+.brand{display:inline-flex;align-items:center;gap:8px}
+.brand .homeicon{width:16px;height:16px;color:var(--ink);flex-shrink:0;display:block}
+.brand:hover{color:var(--ink)}
 .nav .links{display:flex;gap:22px}
 .nav .links a{font-size:15px;color:var(--muted);transition:color .18s}
 .nav .links a:hover,.nav .links a.on{color:var(--ink)}
