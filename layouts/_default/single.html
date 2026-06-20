@@ -1,43 +1,47 @@
-  {{ define "main" }}
-{{ $title := .Title }}
-{{ $url := printf "%s" .URL | absLangURL }}
-<div class="post animated fadeInDown">
-    <div class="post-content">
+{{ define "main" }}
+{{ if eq .File.BaseFileName "about" }}
+  {{/* ---------- About page ---------- */}}
+  <main class="view anim">
+    <section class="wrap blk about" style="border-top:0;padding-top:clamp(56px,9vh,96px)">
+      <h2>About</h2>
+      {{ .Content }}
+    </section>
+  </main>
 
-      <div class="post-title">
-        <h3>{{ .Title }}
-        </h3>
-        {{ if eq .Type "post"}}
-        <div class="info">
-          <i class="fa fa-sun-o"></i><span class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-          <i class="fa fa-clock-o"></i><span class="reading-time">{{ .ReadingTime }}-minute read</span>
-          <div class="share-links" style="float:right;color:var(--heading-color)">
-            <a href="http://twitter.com/share?url={{ $url }}&text={{ $title }}&via={{with .Site.Params.TwitterHandle }}{{ . }}{{ end }}" aria-label="share on Twitter" style="float:right;color:var(--heading-color)">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </div>
-        </div>
+{{ else if eq .File.BaseFileName "talks" }}
+  {{/* ---------- Talks page (rows from data/talks.yaml; talks.md left untouched) ---------- */}}
+  <main class="view anim">
+    <section class="wrap blk" style="border-top:0;padding-top:clamp(56px,9vh,96px)">
+      <h2>Talks</h2>
+      <p class="lede">Talks, panels, and podcasts — 2014 to 2025.</p>
+      <div class="list">
+        {{ range .Site.Data.talks }}
+        <a class="row"{{ with .url }} href="{{ . }}" target="_blank" rel="noopener"{{ end }}>
+          <span class="l"><span class="t">{{ .title }}</span><span class="d">{{ .venue }}</span></span>
+          <span class="yr">{{ .year }}</span>
+        </a>
         {{ end }}
-        </div>
-
-    {{ .Content }}
-    </div>
-    <div class="post-footer">
-      <div class="info">
-        {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
-        {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
       </div>
-    </div>
+    </section>
+  </main>
 
-    {{ if eq .Type "post"}}
-    {{ if .Site.DisqusShortname -}}
-    <div id="fb_comments_container">
-      <h2>Comments</h2>
-      {{ template "_internal/disqus.html" . }}
-    </div>
-    {{- end }}       
+{{ else }}
+  {{/* ---------- Article ---------- */}}
+  <main>
+    <article class="article view anim">
+      <a class="back" href="{{ "/post/" | relURL }}">← All writing</a>
+      <header>
+        <h1>{{ .Title }}</h1>
+        {{ if eq .Type "post" }}<div class="ameta">{{ .Date.Format "Mon, Jan 2, 2006" }} · {{ .ReadingTime }}-minute read</div>{{ end }}
+      </header>
+      <div class="prose">
+        {{ .Content }}
+      </div>
+    </article>
+    <div class="article-foot"><a href="{{ "/post/" | relURL }}">← All writing</a></div>
+    {{ if and (eq .Type "post") .Site.DisqusShortname }}
+      <div class="comments"><h2 style="font-family:var(--serif);color:var(--head);font-size:22px;font-weight:600;margin-bottom:14px">Comments</h2>{{ template "_internal/disqus.html" . }}</div>
     {{ end }}
-</div>
-
-
+  </main>
+{{ end }}
 {{ end }}

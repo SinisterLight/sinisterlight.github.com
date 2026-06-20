@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main class="view anim">
+  <section class="wrap blk" style="border-top:0;padding-top:clamp(56px,9vh,96px)">
+    <h2>{{ if eq .Section "post" }}Writing{{ else }}{{ .Title }}{{ end }}</h2>
+    {{ if eq .Section "post" }}<p class="lede">Essays on software, systems, and how teams build them — 2013 to 2023.</p>{{ end }}
+    <div class="list">
+      {{ range .Pages.ByDate.Reverse }}
+      <a class="row" href="{{ .Permalink }}">
+        <span class="l">
+          <span class="t">{{ .Title }}</span>
+          {{ with index $.Site.Data.essays (path.Base .RelPermalink) }}<span class="d">{{ . }}</span>{{ end }}
+        </span>
+        <span class="yr">{{ .Date.Format "2006" }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+</main>
+{{ end }}

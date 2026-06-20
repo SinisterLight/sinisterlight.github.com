@@ -1,0 +1,22 @@
+# One-line index summaries for the Writing list, keyed by post slug
+# (the last path segment of each post's URL). Kept here so content/ essays
+# are never edited. Year is read from each post's date, not stored here.
+internet-as-a-file-system: "Tracing the web’s read–write dream from WebDAV to IPFS, and the missing layer underneath it."
+evolution-of-microservices: "How we got from the monolith to the mesh — and what each step actually bought us."
+start-with-monolith: "A contrarian’s case for building a monolith before reaching for microservices."
+implementing-sre: "On service levels — what to measure, what to promise, and what to do when you miss."
+tech-lead: "What a Tech Lead actually is, where the role’s boundaries lie, and what it demands."
+startup-maturity-model: "A model for reading the stage a startup is really at, beneath the apparent chaos."
+going-faster: "Why speed matters in technology businesses, and how the way you move has to change."
+cto-maturity-model: "The altitudes a technology leader operates at, and how the role matures with the company."
+signing-out: "Closing the chapter on five years at Gojek."
+economy-of-scalable-engineering: "What it takes to build engineering that scales with the business, not against it."
+my-user-manual: "A user manual for working with me."
+art-of-writing-rcas: "Incident write-ups as a craft — the patterns worth improving across a company."
+kafka-solved-culture-problem: "How the right architecture dissolved an organisational problem at Gojek."
+team-focused-on-eventually-automating-everything-2: "Part two of the Team Lambda story."
+team-focused-on-eventually-automating-everything: "Untying dependencies and letting machines do the work."
+subjective-interviews-to-binary-hires: "Re-engineering the interview into something more defensible."
+the-vicious-circle: "A short story about a boy named Johnny."
+digital-ocean-secretly-wants-you-to-switch-to-larger-droplets: "A close read of a cloud provider’s incentives."
+hello-world: "Where it started."

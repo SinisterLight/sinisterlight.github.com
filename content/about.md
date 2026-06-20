@@ -3,17 +3,34 @@ title: "Shobhit Srivastava"
 date: 2020-06-01T23:50:09+05:30
 ---
 
-I’m Shobhit, also known as [@Sinister_Light](https://twitter.com/Sinister_Light) on Twitter. I write about software, management and life. I would love to hear from you at me[at]sinisterlight.com.
+I'm Shobhit. These days I'm building [Shovel](https://shovel.company), a small team in Bangalore. We're working on Stevens — a personal agent that quietly helps a family keep up with the constant small work of a home: health, money, and the people you care about. It grew out of a longer interest in giving people real ownership of their digital lives.
 
-Currently, I am the co-founder and CEO of [shovel.company](https://shovel.company/) - building tools for internet infrastructure. We are solving problems around Digital identity and working towards building a new protocols necessary for the modern world.
+### The first attempts
 
-I started my first company in 2013, building a product called "Vocall", a WebRTC based video conferencing software, which went bust quickly within a year. I consequently started "CodeIgnition", a frontier DevOps startup with cofounders [Ajey](https://twitter.com/ajeygore), [Mehak](https://twitter.com/MehakKahlon), [Sumit](https://twitter.com/timusg) & [Shraddha](https://twitter.com/shraddhagore).
+I started my first company in 2013 — **Vocall**, a video-calling product built on WebRTC. It didn't work; we wound it down inside a year. I probably learned more from that one year than from most of what went right afterwards.
 
-In 2015, we exited CodeIgnition to [Gojek](https://www.gojek.io/) - where I was SVP Product Engineering, running the Transport vertical and managing the CTO office. Gojek eventually IPOed at $28B. Shovel is my third startup, one I started after leaving Gojek in September 2020 with [Rishi](https://twitter.com/SageiEar) and [Prashant](https://twitter.com/prashant_mit).
+Soon after, a few of us — Ajey, Mehak, Sumit, Shraddha and I — started **CodeIgnition**, a DevOps company, fairly early to infrastructure-as-code in India. In 2015 the team joined Gojek.
 
-I am deeply passionate about the future and technology. Complex networks and distributed systems are favourite topics I am constantly learning about. I love to work on data primitives and designed databases like [GossipDB](https://github.com/SinisterLight/gossipdb) - a gossip replication based embedded key-value store. While at Gojek, I architected [Ziggurat](https://github.com/gojek/ziggurat) - stream processing engine in clojure - which runs 100s applications within Gojek. I have been a co-author of the CNCF [Observability white-paper](https://github.com/cncf/tag-observability/blob/main/whitepaper.md) and organise [DevOpsDays India](https://devopsdaysindia.org/).
+### Five years at Gojek
 
-I care a lot about education as it empowers us to change our place in the world. Formal education is a place where kids get their first exposure to this shovel as a first-class system. I am involved in education through various initiatives - as a board member of Marudhara Foundation, [IIT Jodhpur](https://www.iitj.ac.in/) (my alma mater) and designing curriculum for 21st century schools for the state government of New Delhi, India.
+At **Gojek** I was part of the product-engineering leadership — looking after the Transport business and helping run the CTO office — through the years the company grew into one of the region's largest. It eventually went public at around $28 billion.
 
-Small video about me while I was at Gojek.
+Along the way I helped build [Ziggurat](https://github.com/gojek/ziggurat), a stream-processing engine in Clojure that still runs a good part of Gojek's backend, and contributed to the [CNCF observability whitepaper](https://github.com/cncf/tag-observability/blob/main/whitepaper.md). Mostly, I learned what it actually costs to scale something — in systems, and in people.
+
+### What comes next
+
+I left Gojek in late 2020 to start **Shovel**, my third company. The thesis took a while to find: it began with digital identity and people owning their own data, and over a few years became a conviction that the way people will actually use software next is through agents.
+
+Today we're building [Stevens](https://shovel.company/#stevens) — a personal agent for the family, across health, wealth, and the relationships that hold a household together — on the [Creole Network](https://creole.network/whitepaper/), a substrate that keeps a person's data in their own hands. The belief underneath it is a simple one: a tool should give its owner more leverage, and leave the decisions to them.
+
+### Selected work
+
+* **Ziggurat** — a Clojure stream-processing engine I helped build at Gojek. [GitHub](https://github.com/gojek/ziggurat)
+* **GossipDB** — a small gossip-replicated key-value store; a side project. [GitHub](https://github.com/SinisterLight/gossipdb)
+* **CNCF Observability** — contributed to the Cloud Native Computing Foundation's observability whitepaper.
+* **DevOpsDays India** — I help organise it. [Site](https://devopsdaysindia.org/)
+* **Education** — on the board at Marudhara Foundation and IIT Jodhpur (my alma mater); curriculum work with the Government of Delhi.
+
+### A short film, from my Gojek years
+
 {{< youtube z1bKs6JDBJA >}}
