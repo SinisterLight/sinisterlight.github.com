@@ -49,6 +49,7 @@ a.row:hover .t{color:var(--accent)}
 .row .yr{color:var(--faint);font-size:15px;white-space:nowrap;font-variant-numeric:tabular-nums}
 .viewall{display:inline-block;margin-top:26px;font-size:15px;color:var(--accent)}
 .viewall:hover{text-decoration:underline;text-underline-offset:3px}
+.elsewhere p{display:flex;flex-wrap:wrap;align-items:center}
 .elsewhere a{color:var(--accent);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line-2)}
 .elsewhere .sep{color:var(--faint);margin:0 10px}
 .about h3{font-family:var(--serif);font-size:clamp(20px,2.6vw,25px);font-weight:600;color:var(--ink);margin:34px 0 12px}
@@ -112,4 +113,6 @@ footer a{color:var(--muted)} footer a:hover{color:var(--accent)}
   .nav .links.open{display:flex;flex-direction:column;position:absolute;top:55px;left:0;right:0;background:var(--paper);padding:20px var(--gut);gap:16px;border-bottom:1px solid var(--line-2)}
   .burger{display:flex}
   .row{flex-direction:column;gap:4px}.row .yr{order:-1;font-size:13px}
+  .elsewhere .sep{display:none}
+  .elsewhere p{column-gap:22px;row-gap:11px}
 }
