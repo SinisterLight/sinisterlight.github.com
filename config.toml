@@ -20,6 +20,8 @@ favicon = "favicons/"
 customCss = []
 mainSections = ["post"]
 twitterHandle = "Sinister_Light"
+# Google Analytics 4 (replaces the dead UA-37091031-1 dropped in the redesign)
+googleAnalytics = "G-NNWN37DF3G"
 
 ## Math settings
 [params.math]
