@@ -1,0 +1,77 @@
+{{ define "head" }}<link rel="stylesheet" href="{{ "css/library.css" | relURL }}?v={{ now.Unix }}">{{ end }}
+
+{{ define "main" }}
+{{ $books := .Site.Data.library }}
+{{ $genres := slice "Fiction" "SciFi & Fantasy" "Science" "Technology & Engineering" "Philosophy" "Psychology & Behaviour" "History" "Economics & Finance" "Politics & Society" "Biography & Memoir" "Writing, Design & Creativity" "Spirituality & Religion" "Business & Management" "Productivity & Self-Help" "Health" }}
+<main>
+  <section class="lib">
+    <header class="lib-head">
+      <h1 class="lib-title">My Library</h1>
+      <p class="lib-lede" id="lede">Almost every book I&rsquo;ve read &mdash; grouped by what it&rsquo;s about. Stroll a shelf; every book tells a story.</p>
+      <div class="wings" role="tablist" aria-label="Library wings">
+        <button class="wing-btn" role="tab" data-wing="library" aria-selected="true"><span class="lg">The Library</span><span class="sm">Read</span></button>
+        <button class="wing-btn" role="tab" data-wing="reading" aria-selected="false"><span class="lg">Reading now</span><span class="sm">Reading</span></button>
+        <button class="wing-btn" role="tab" data-wing="anti" aria-selected="false"><span class="lg">The Anti-Library</span><span class="sm">Unread</span></button>
+      </div>
+    </header>
+
+    {{/* ---- interactive museum (shown when JS is on) ---- */}}
+    <div class="lib-museum">
+      <nav class="genres" id="genres" aria-label="Genres"></nav>
+      <div class="detail">
+        <div class="left">
+          <div class="counter" id="counter"></div>
+          <p class="tap-hint">Tap a book to read about it</p>
+          <div class="case-wrap">
+            <div class="vitrine" id="vitrine" aria-label="Bookshelf">
+              <div class="spotlight"></div>
+              <div class="rail" id="rail"></div>
+              <button class="arrow left" id="prev" aria-label="Previous book">&#8249;</button>
+              <button class="arrow right" id="next" aria-label="Next book">&#8250;</button>
+            </div>
+          </div>
+        </div>
+        <aside class="right">
+          <div class="sheet-handle" aria-hidden="true"></div>
+          <button class="sheet-close" id="sheetClose" aria-label="Close">&times;</button>
+          <div class="caption" id="caption" aria-live="polite">
+            <div class="c-genre" id="cGenre"></div>
+            <h2 class="c-title" id="cTitle"></h2>
+            <div class="c-meta" id="cMeta"></div>
+            <div class="c-tags" id="cTags"></div>
+            <p class="c-body" id="cBody"></p>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <div class="lib-backdrop" id="libBackdrop" aria-hidden="true"></div>
+
+    {{/* ---- SEO / no-JS fallback: full genre-grouped list, server-rendered ---- */}}
+    <div class="lib-fallback">
+      {{ range $w := slice (dict "k" "library" "label" "The Library — read") (dict "k" "reading" "label" "Reading now") (dict "k" "anti" "label" "The Anti-Library — owned, unread") }}
+        {{ $wb := where $books "w" $w.k }}
+        {{ if $wb }}
+          <h2 class="fb-wing fb-genre">{{ $w.label }}</h2>
+          {{ range $g := $genres }}
+            {{ $gb := where $wb "g" $g }}
+            {{ if $gb }}
+              <h3 class="fb-genre">{{ $g }}</h3>
+              {{ range $gb }}
+                <div class="fb-item">
+                  <span class="fb-t">{{ .t }}</span> <span class="fb-a">&mdash; {{ .a }}</span>
+                  {{ with .n }}<div class="fb-n">{{ . }}</div>{{ end }}
+                </div>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+</main>
+{{ end }}
+
+{{ define "scripts" }}
+<script type="application/json" id="lib-data">{{ readFile "data/library.json" | safeJS }}</script>
+<script src="{{ "js/library.js" | relURL }}?v={{ now.Unix }}"></script>
+{{ end }}

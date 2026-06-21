@@ -19,6 +19,7 @@
 <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "index.xml" | absURL }}">
 <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}">
 <link rel="stylesheet" href="{{ "css/site.css" | relURL }}?v={{ now.Unix }}">
+{{ block "head" . }}{{ end }}
 </head>
 <body>
 
@@ -31,8 +32,9 @@
     <div class="burger" aria-label="Menu" role="button" tabindex="0"><span></span><span></span><span></span></div>
     <div class="links">
       <a href="{{ "/post/" | relURL }}"{{ if eq .Section "post" }} class="on"{{ end }}>Writing</a>
-      <a href="{{ "/talks/" | relURL }}"{{ if eq .Section "talks" }} class="on"{{ end }}>Talks</a>
-      <a href="{{ "/about/" | relURL }}"{{ if eq .Section "about" }} class="on"{{ end }}>About</a>
+      <a href="{{ "/talks/" | relURL }}"{{ if hasPrefix .RelPermalink (relURL "/talks/") }} class="on"{{ end }}>Talks</a>
+      <a href="{{ "/about/" | relURL }}"{{ if hasPrefix .RelPermalink (relURL "/about/") }} class="on"{{ end }}>About</a>
+      <a href="{{ "/library/" | relURL }}"{{ if eq .Type "library" }} class="on"{{ end }}>Library</a>
       <a href="https://shovel.company" target="_blank" rel="noopener">Shovel</a>
     </div>
   </div>
@@ -54,5 +56,6 @@
     b.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t()}});}
 })();
 </script>
+{{ block "scripts" . }}{{ end }}
 </body>
 </html>
