@@ -36,7 +36,7 @@
 .lib .vitrine::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;box-shadow:inset 0 0 70px 18px rgba(150,118,72,.16)}
 .lib .spotlight{position:absolute;top:50%;left:50%;width:600px;height:600px;transform:translate(-50%,-56%);background:radial-gradient(circle,var(--glow) 0%,rgba(154,83,51,.06) 32%,transparent 60%);pointer-events:none;z-index:0}
 .lib .rail{position:relative;width:1px;height:1px;transform-style:preserve-3d;transition:transform .25s ease-out}
-.lib .book{position:absolute;left:0;top:0;cursor:pointer;transform-style:preserve-3d;transition:transform .55s cubic-bezier(.19,.74,.21,1),opacity .55s,filter .55s;will-change:transform,opacity;background:none;border:0;padding:0}
+.lib .book{position:absolute;left:0;top:0;cursor:pointer;transform-style:preserve-3d;transition:transform .42s cubic-bezier(.22,.61,.36,1),opacity .42s,filter .42s;will-change:transform,opacity;background:none;border:0;padding:0}
 .lib .face{position:relative;border-radius:2px 4px 4px 2px;overflow:hidden;box-shadow:0 24px 44px -14px rgba(0,0,0,.6),0 4px 10px rgba(0,0,0,.4);border-left:2px solid rgba(0,0,0,.3)}
 .lib .jacket{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;padding:14px 13px}
 .lib .jacket::before{content:"";position:absolute;inset:7px;border:1px solid rgba(255,255,255,.18);border-radius:1px}

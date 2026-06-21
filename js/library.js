@@ -50,35 +50,47 @@
     el.innerHTML=
       '<div class="edge" style="width:'+thick+'px;background:linear-gradient(90deg,'+shade(c,.55)+','+shade(c,.32)+')"></div>'+
       '<div class="face" style="width:'+W+'px;height:'+H+'px;background:'+grad+'">'+
-        '<div class="jacket"><div class="jt" style="font-size:'+jf+'px">'+disp+'</div><div class="ja" style="font-size:'+af+'px">'+b.a+'</div></div>'+
-        (b.cover?'<img class="cover" src="'+b.cover+'" alt="" loading="lazy" onerror="this.remove()">':'')+
+        (b.cover
+          ? '<img class="cover" src="'+b.cover+'" alt="" loading="lazy" decoding="async" onerror="this.remove()">'
+          : '<div class="jacket"><div class="jt" style="font-size:'+jf+'px">'+disp+'</div><div class="ja" style="font-size:'+af+'px">'+b.a+'</div></div>')+
       '</div>'+
       '<div class="reflection" style="width:'+W+'px;height:'+H+'px;background:'+grad+'"></div>';
     el.onclick=function(){
-      if(isTouch){ idx=i; render(); fillCaption(); openSheet(); }
+      if(isTouch){ idx=i; layout(); updateCounter(); fillCaption(); openSheet(); }
       else if(i===idx){ showCaption(); }
-      else { idx=i; render(); showCaption(); }
+      else { idx=i; layout(); updateCounter(); showCaption(); }
     };
     return el;
   }
-  function render(){
-    var list=shelf(),N=list.length; rail.innerHTML="";
+  var bookEls=[];
+  // layout(): reposition the EXISTING book elements for the current idx.
+  // Called on every swipe/step so the CSS transform-transition animates a smooth glide
+  // and the cover <img>s are never recreated (no reload / no placeholder flicker).
+  function layout(){
+    var N=bookEls.length; if(!N)return;
     var GAP=dims().W*(isTouch?0.84:0.78);
-    list.forEach(function(b,i){
-      var el=makeBook(b,i),o=i-idx;
+    for(var i=0;i<N;i++){
+      var el=bookEls[i],o=i-idx;
       if(N>1){ if(o>N/2)o-=N; else if(o<-N/2)o+=N; }
-      var a=Math.abs(o);
-      if(a>4){el.style.opacity="0";el.style.pointerEvents="none";rail.appendChild(el);return;}
-      var center=o===0; el.classList.toggle("is-center",center);
+      var a=Math.abs(o),center=o===0;
+      el.classList.toggle("is-center",center);
+      if(a>4){el.style.opacity="0";el.style.pointerEvents="none";el.style.zIndex="0";continue;}
+      el.style.pointerEvents="auto";
       var cs=isTouch?1.82:1.6, ss=isTouch?0.66:0.8;
       var tx=o*GAP, tz=center?85:-a*150, ry=center?0:(o<0?30:-30), sc=center?cs:(ss-a*0.04);
       el.style.transform="translate(-50%,-50%) translateX("+tx+"px) translateZ("+tz+"px) rotateY("+ry+"deg) scale("+sc+")";
       el.style.opacity=a>3?0:(center?1:0.58-a*0.13);
       el.style.filter=center?"saturate(1.06)":"saturate(.82) blur("+(a>=1?a*0.45:0.3)+"px)";
       el.style.zIndex=100-a;
-      rail.appendChild(el);
-    });
-    counter.textContent=list.length?(idx+1)+" / "+list.length+" · "+genre:"";
+    }
+  }
+  function updateCounter(){var list=shelf();counter.textContent=list.length?(idx+1)+" / "+list.length+" · "+genre:"";}
+  // render(): full rebuild — only when the shelf (wing/genre) or book sizes change.
+  function render(){
+    var list=shelf(),N=list.length; rail.innerHTML=""; bookEls=[];
+    list.forEach(function(b,i){var el=makeBook(b,i);rail.appendChild(el);bookEls.push(el);});
+    layout();
+    updateCounter();
     var dis=N<=1,pv=$("prev"),nx=$("next");
     if(pv){pv.disabled=dis;pv.setAttribute("aria-disabled",dis);}
     if(nx){nx.disabled=dis;nx.setAttribute("aria-disabled",dis);}
@@ -97,7 +109,7 @@
     $("cBody").textContent=b.n||"";
     caption.classList.add("show");
   }
-  function step(d){var n=shelf().length;if(!n)return;idx=(idx+d+n)%n;render();showCaption();}
+  function step(d){var n=bookEls.length;if(!n)return;idx=(idx+d+n)%n;layout();updateCounter();showCaption();}
   function changeGenre(d){var gs=genresOf(wing),i=gs.indexOf(genre);i=Math.max(0,Math.min(gs.length-1,i+d));genre=gs[i];idx=0;render();showCaption();}
   function setWing(w){closeSheet();wing=w;$("lede").textContent=LEDE[w];var gs=genresOf(w);genre=gs[0]||null;idx=0;render();showCaption();}
 
@@ -121,9 +133,13 @@
     if(wheelLock)return;var m=Math.abs(e.deltaX)>Math.abs(e.deltaY)?e.deltaX:e.deltaY;
     if(Math.abs(m)<6)return;e.preventDefault();wheelLock=true;step(m>0?1:-1);setTimeout(function(){wheelLock=false;},230);
   },{passive:false});
-  var dragging=false,startX=0,lastStep=0;
-  function down(x){dragging=true;startX=x;lastStep=0;}
-  function move(x){if(!dragging)return;var dx=x-startX,sp=isTouch?64:110,want=Math.round(-dx/sp);if(want!==lastStep){step(want>lastStep?1:-1);lastStep=want;startX=x;}}
+  var dragging=false,startX=0,baseIdx=0;
+  function down(x){dragging=true;startX=x;baseIdx=idx;}
+  function move(x){
+    if(!dragging)return;var n=bookEls.length;if(!n)return;
+    var sp=isTouch?56:90,target=((baseIdx+Math.round((startX-x)/sp))%n+n)%n;
+    if(target!==idx){idx=target;layout();updateCounter();showCaption();}
+  }
   function up(){dragging=false;}
   vit.addEventListener("pointerdown",function(e){down(e.clientX);});
   addEventListener("pointermove",function(e){move(e.clientX);});addEventListener("pointerup",up);
